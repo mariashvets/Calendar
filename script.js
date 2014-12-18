@@ -19,8 +19,8 @@ window.onload = function() {
 }
 
 function renderCurrentCalendarPage(currentDate) {
-    document.getElementById("month").innerText = months[currentDate.month];
-    document.getElementById("year").innerText = currentDate.year;
+    document.getElementById("month").textContent = months[currentDate.month];
+    document.getElementById("year").textContent = currentDate.year;
 
     var blocks = document.getElementsByClassName("block-date");
     removeElements(blocks);
@@ -212,7 +212,7 @@ function createElement(el, className, content) {
         element.className = className;
     }
     if (content) {
-        element.innerText = content;
+        element.textContent = content;
     }
     return element;
 }
@@ -221,7 +221,6 @@ function removeElements(elements) {
     while (elements.length > 0) {
         for (var k = 0; k < elements.length; k++) {
             document.getElementById("calendar").removeChild(elements[k]);
-            console.log(k);
         }
     }
 }

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0922886-6ee2-4a69-b91b-59070fe88c6d" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icon-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Testing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="Testing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1342812" vertical-offset="0" max-vertical-offset="952">
+            <state line="5" column="45" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -50,16 +38,16 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="59" selection-start="1651" selection-end="1651" vertical-scroll-proportion="-11.16" vertical-offset="452" max-vertical-offset="3961">
+            <state line="205" column="45" selection-start="7333" selection-end="7335" vertical-scroll-proportion="-8.44" vertical-offset="3274" max-vertical-offset="3944">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="275" column="10" selection-start="4440" selection-end="4440" vertical-scroll-proportion="-37.6" vertical-offset="3735" max-vertical-offset="4794">
+            <state line="251" column="23" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.8391167" vertical-offset="3735" max-vertical-offset="4777">
               <folding />
             </state>
           </provider>
@@ -83,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -326,23 +314,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="10" selection-start="4440" selection-end="4440" vertical-scroll-proportion="-37.6" vertical-offset="3735" max-vertical-offset="4794">
+        <state line="5" column="45" selection-start="140" selection-end="140" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="1651" selection-end="1651" vertical-scroll-proportion="-11.16" vertical-offset="452" max-vertical-offset="3961">
+        <state line="205" column="45" selection-start="7333" selection-end="7335" vertical-scroll-proportion="-8.44" vertical-offset="3274" max-vertical-offset="3944">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="140" selection-end="140" vertical-scroll-proportion="0.1342812" vertical-offset="0" max-vertical-offset="952">
+        <state line="251" column="23" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.8391167" vertical-offset="3735" max-vertical-offset="4777">
           <folding />
         </state>
       </provider>
