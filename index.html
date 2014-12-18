@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Calendar</title>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="controls-panel">
+    <div class="container">
+        <div class="buttons">
+            <div class="button blue add">Добавить</div>
+            <div class="button blue update">Обновить</div>
+        </div>
+        <form class="searchbox" id="searchbox" action="">
+            <input class="search" id="search" type="text" placeholder="Событие, дата или участник">
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="calendar">
+        <div class="calendar-header">
+            <div class="choose-month">
+                <div class="button small  arrow  next" id="next"></div>
+                <div class="button small  arrow prev" id="prev"></div>
+                <div class="content">
+                    <span class="month" id="month">Март</span>
+                    <span class="year" id="year">2013</span>
+                </div>
+            </div>
+            <div class="button small show-today" id="show-today">Сегодня</div>
+        </div>
+        <div class="calendar-content" id="calendar">
+        </div>
+        <div class="popup" id="popup">
+            <form id="popup-form">
+                <input id="event-name" class="text-field event-name" type="text" placeholder="Событие">
+                <input id="date"  class="text-field" type="text" placeholder="Дата, месяц, год">
+                <input id="participants"  class="text-field" type="text" placeholder="Имена участников">
+                <textarea id="description"   rows="7" class="text-field"   placeholder="Описание"></textarea>
+                <input type="submit" class="button small btn-form" id="submit" value="Готово">
+                <input type="button" class="button small btn-form" id="remove" value="Удалить">
+                <div class="close"  id="close"></div>
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
